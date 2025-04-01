@@ -5,6 +5,8 @@ import Navbar from "./layout/Navbar/Navbar";
 import Home from "./pages/Home/Home";
 import Footer from "./layout/Footer/Footer";
 
+import { dataCards } from "./data/dataCards";
+
 const theme = {
   colors: {
     white: "#f1f7f7",
@@ -17,9 +19,9 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
-
       <Navbar />
-      <Home />
+      <Home dataCards={dataCards} />
+
       <Footer />
     </ThemeProvider>
   );

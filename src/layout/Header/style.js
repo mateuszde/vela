@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import Paragraph from "../../components/Paragraph/Paragraph";
 
 export const Wrapper = styled.header`
   min-height: 90vh;
