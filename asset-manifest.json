@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/vela/static/js/main.e428538a.js",
-    "static/media/1_hr.jpg": "/vela/static/media/1_hr.45e617906937a73943d0.jpg",
-    "static/media/HeroImage.jpg": "/vela/static/media/HeroImage.38350ac860e66cacf31d.jpg",
+    "main.js": "/vela/static/js/main.bc92415e.js",
+    "static/media/HeroImage.jpg": "/vela/static/media/HeroImage.08f141bc527f7712a5fb.jpg",
+    "static/media/1_hr.jpg": "/vela/static/media/1_hr.753a49ec57d9e9a38b08.jpg",
     "static/media/VelaLogoWhite.svg": "/vela/static/media/VelaLogoWhite.02ad3a95da76a963c151dd93fa95e282.svg",
     "index.html": "/vela/index.html",
-    "main.e428538a.js.map": "/vela/static/js/main.e428538a.js.map"
+    "main.bc92415e.js.map": "/vela/static/js/main.bc92415e.js.map"
   },
   "entrypoints": [
-    "static/js/main.e428538a.js"
+    "static/js/main.bc92415e.js"
   ]
 }
