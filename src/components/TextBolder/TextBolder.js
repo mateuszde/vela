@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const TextBolderWrapper = styled.span`
-  font-weight: bold;
+  font-weight: 500;
 `;
 
 const TextBolder = ({ children }) => {
