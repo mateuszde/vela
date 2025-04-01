@@ -84,16 +84,14 @@ const Investment = () => {
             </div>
             <div>
               <Paragraph>
-                Domy w Vela Park spełniają wysokie standardy energooszczędności.
-                Zamiast tradycyjnego ogrzewania gazowego zastosowaliśmy pompę
-                ciepła, co zapewnia niższe koszty eksploatacji oraz większą
-                troskę o środowisko.
+                Domy w <TextBolder>Vela Park</TextBolder> spełniają wysokie
+                standardy energooszczędności. Zamiast tradycyjnego ogrzewania
+                gazowego zastosowaliśmy pompę ciepła, co zapewnia niższe koszty
+                eksploatacji oraz większą troskę o środowisko.
               </Paragraph>
             </div>
             <div>
-              <Paragraph>
-                <TextBolder>Standard wykończenia:</TextBolder>
-              </Paragraph>
+              <Paragraph>Standard wykończenia:</Paragraph>
               <List>
                 <ListItem>
                   <Paragraph>
@@ -109,7 +107,20 @@ const Investment = () => {
                 </ListItem>
                 <ListItem>
                   <Paragraph>
-                    Wysokiej jakości stolarka okienna z roletami elektrycznymi
+                    <TextBolder>Wysokiej jakości stolarka</TextBolder> okienna z
+                    roletami elektrycznymi
+                  </Paragraph>
+                </ListItem>
+                <ListItem>
+                  <Paragraph>
+                    <TextBolder>Przestronne działki</TextBolder> zapewniające
+                    prywatność i możliwość aranżacji ogrodu
+                  </Paragraph>
+                </ListItem>
+                <ListItem>
+                  <Paragraph>
+                    <TextBolder>Wysokiej klasy materiały budowlane</TextBolder>{" "}
+                    gwarantujące trwałość i komfort
                   </Paragraph>
                 </ListItem>
               </List>

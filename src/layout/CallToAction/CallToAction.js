@@ -2,6 +2,7 @@ import Button from "../../components/Button/Button";
 import Paragraph from "../../components/Paragraph/Paragraph";
 import ContainerWidth from "../../components/ContainerWidth/ContainerWidth";
 import TextColor from "../../components/TextColor/TextColor";
+import TextBolder from "../../components/TextBolder/TextBolder";
 
 import {
   Wrapper,
@@ -22,7 +23,10 @@ const CallToAction = () => {
             Jesteś zainteresowany <TextColor>?</TextColor>
           </StyledHeading2>
           <Paragraph light="true">
-            Skontaktuj się z nami i zarezerwuj swój dom już dziś!
+            <TextBolder>Vela Park</TextBolder> to wyjątkowe połączenie komfortu,
+            nowoczesnych technologii i bliskości natury. To miejsce, w którym
+            możesz stworzyć swój wymarzony dom. Skontaktuj się z nami i
+            zarezerwuj swój dom już dziś!
           </Paragraph>
           <ButtonsWrapper>
             <Button primary>Zadzwoń teraz</Button>
