@@ -63,7 +63,7 @@ export const TitleWrapper = styled.div`
   display: flex;
   flex-wrap: nowrap;
   align-items: flex-end;
-  justify-content: safe;
+  justify-content: center;
 `;
 
 export const ContentWrapper = styled.div`
