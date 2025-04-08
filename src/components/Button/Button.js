@@ -1,6 +1,11 @@
-import { StyledNavButton, PrimaryButton, SecondaryButton } from "./style";
+import {
+  StyledNavButton,
+  PrimaryButton,
+  SecondaryButton,
+  SmallButton,
+} from "./style";
 
-const Button = ({ children, navigation, primary, secondary }) => {
+const Button = ({ children, navigation, primary, secondary, small }) => {
   return (
     <>
       {navigation && (
@@ -19,6 +24,12 @@ const Button = ({ children, navigation, primary, secondary }) => {
         <SecondaryButton>
           <p>{children}</p>
         </SecondaryButton>
+      )}
+
+      {small && (
+        <SmallButton>
+          <p>{children}</p>
+        </SmallButton>
       )}
     </>
   );

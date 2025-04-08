@@ -30,9 +30,9 @@ const Header = () => {
 
         <StyledParagraph>
           Vela Park to kameralna inwestycja zlokalizowana w Żukczynie, gmina
-          Pruszcz Gdański, przy ulicy Nad Potokiem. To miejsce stworzone dla
-          tych, którzy cenią ciszę, bliskość natury oraz komfort nowoczesnego
-          budownictwa.
+          Pruszcz Gdański, nad rzeką Kłodawa (dopływ Motławy o długości prawie
+          34km). To miejsce stworzone dla tych, którzy cenią ciszę, bliskość
+          natury oraz komfort nowoczesnego budownictwa.
         </StyledParagraph>
 
         <ButtonsWrapper>

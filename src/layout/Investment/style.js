@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ContentWrapper = styled.div`
   display: flex;
-  height: 500px;
+  min-height: 500px;
   margin: 46px 0;
 `;
 export const TextContainer = styled.div`

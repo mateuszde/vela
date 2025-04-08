@@ -20,6 +20,7 @@ import image3 from "../../assets/Images/3_hr.jpg";
 import image4 from "../../assets/Images/4_hr.jpg";
 import image5 from "../../assets/Images/5_hr.jpg";
 import image6 from "../../assets/Images/6_hr.jpg";
+import RealEstateTable from "../../components/RealEstateTable/RealEstateTable";
 
 const images = [
   {
@@ -54,7 +55,7 @@ const Investment = () => {
       <TextWithChildrenComponent
         title="O inwestycji"
         subtitle="Spokój Natury i Bliskość Miasta"
-        text="Vela Park to kameralna inwestycja zlokalizowana w Żukczynie, gmina Pruszcz Gdański, przy ulicy Nad Potokiem. To miejsce stworzone dla tych, którzy cenią ciszę, bliskość natury oraz komfort nowoczesnego budownictwa. Dzięki dogodnej lokalizacji mieszkańcy mogą cieszyć się zarówno urokami spokojnej okolicy, jak i szybkim dojazdem do Gdańska czy Pruszcza Gdańskiego."
+        text="Zapraszamy do zapoznania się z naszą nową inwestycją w Żukczynie – kameralnym osiedlem domów jednorodzinnych położonym nad malowniczym potokiem. To idealne miejsce dla tych, którzy pragną połączyć komfort życia w nowoczesnym domu z bliskością przyrody."
       >
         <ContentWrapper>
           <TextContainer>
@@ -135,8 +136,7 @@ const Investment = () => {
             />
           </Gallery>
         </ContentWrapper>
-
-        <p>TABELA Z DOMAMI, CENAMI, WIZKAMI DO POBRANIA</p>
+        <RealEstateTable />
       </TextWithChildrenComponent>
     </ContainerWidth>
   );
