@@ -1,9 +1,12 @@
 import { NavbarContainer, LogoWrapper, NavWrapper, StyledList } from "./style";
 import Button from "../../components/Button/Button";
-import Paragraph from "../../components/Paragraph/Paragraph";
-
 import logo from "../../assets/Logo/VelaLogoWhite.svg";
+import { fetchFile } from "../../utilites/fetchFile";
+
 const Navbar = () => {
+  const handleDownload = (fileName) => {
+    fetchFile(fileName);
+  };
   return (
     <NavbarContainer>
       <NavWrapper>

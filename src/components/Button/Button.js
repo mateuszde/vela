@@ -5,29 +5,36 @@ import {
   SmallButton,
 } from "./style";
 
-const Button = ({ children, navigation, primary, secondary, small }) => {
+const Button = ({
+  children,
+  navigation,
+  primary,
+  secondary,
+  small,
+  ...props
+}) => {
   return (
     <>
       {navigation && (
-        <StyledNavButton>
+        <StyledNavButton {...props}>
           <p>{children}</p>
         </StyledNavButton>
       )}
 
       {primary && (
-        <PrimaryButton>
+        <PrimaryButton {...props}>
           <p>{children}</p>
         </PrimaryButton>
       )}
 
       {secondary && (
-        <SecondaryButton>
+        <SecondaryButton {...props}>
           <p>{children}</p>
         </SecondaryButton>
       )}
 
       {small && (
-        <SmallButton>
+        <SmallButton {...props}>
           <p>{children}</p>
         </SmallButton>
       )}

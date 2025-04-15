@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const SingleCardWrapper = styled.div`
   /* height: 100px; */
   width: 30%;
-  padding: 40px;
+  padding: 35px;
   display: flex;
   flex-direction: column;
   border-radius: 25px;
@@ -45,7 +45,7 @@ export const TitleWrapper = styled.div`
 export const IconWrapper = styled.div`
   min-height: 70px;
   min-width: 70px;
-  border-radius: 25px;
+  border-radius: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
