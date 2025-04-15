@@ -9,7 +9,7 @@ export const Wrapper = styled.div`
   border-radius: 25px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   gap: 30px;
 `;

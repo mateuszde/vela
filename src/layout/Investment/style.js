@@ -2,9 +2,23 @@ import styled from "styled-components";
 
 export const ContentWrapper = styled.div`
   display: flex;
-  min-height: 500px;
-  margin: 46px 0;
+  margin: 24px 0;
 `;
+
+export const IconsWrapper = styled.div`
+  display: flex;
+  gap: 20px;
+  margin: 24px 0 84px 0;
+  justify-content: center;
+`;
+
+export const Wrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin: 24px 0;
+  width: 100%;
+`;
+
 export const TextContainer = styled.div`
   flex-grow: 1;
   padding-right: 40px;

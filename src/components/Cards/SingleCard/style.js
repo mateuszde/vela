@@ -51,6 +51,7 @@ export const IconWrapper = styled.div`
   align-items: center;
   background-color: ${({ theme }) => theme.colors.primary};
   color: ${({ theme }) => theme.colors.white};
+  transition: all 0.3s ease-in-out;
 
   ${SingleCardWrapper}:hover & {
     color: ${({ theme }) => theme.colors.primary};

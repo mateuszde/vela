@@ -6,12 +6,17 @@ import TextWithChildrenComponent from "../../components/TextWithChildrenComponen
 import SubTitle from "../../components/SubTitle/SubTitle";
 import Paragraph from "../../components/Paragraph/Paragraph";
 import TextBolder from "../../components/TextBolder/TextBolder";
+import srcVideo from "../../assets/Video/DronInwestycja.mp4";
+import Video from "../../components/Video/Video";
+
 import {
   ContentWrapper,
+  Wrapper,
   TextContainer,
   Gallery,
   ListItem,
   List,
+  IconsWrapper,
 } from "./style";
 
 import image1 from "../../assets/Images/1_hr.jpg";
@@ -21,6 +26,7 @@ import image4 from "../../assets/Images/4_hr.jpg";
 import image5 from "../../assets/Images/5_hr.jpg";
 import image6 from "../../assets/Images/6_hr.jpg";
 import RealEstateTable from "../../components/RealEstateTable/RealEstateTable";
+import IconWithText from "../../components/IconWithText/IconWithText";
 
 const images = [
   {
@@ -54,7 +60,7 @@ const Investment = () => {
     <ContainerWidth>
       <TextWithChildrenComponent
         title="O inwestycji"
-        subtitle="Spokój Natury i Bliskość Miasta"
+        subtitle="Nowoczesne Domy w Żukczynie – Twoje Miejsce Blisko Natury"
         text="Zapraszamy do zapoznania się z naszą nową inwestycją w Żukczynie – kameralnym osiedlem domów jednorodzinnych położonym nad malowniczym potokiem. To idealne miejsce dla tych, którzy pragną połączyć komfort życia w nowoczesnym domu z bliskością przyrody."
       >
         <ContentWrapper>
@@ -136,6 +142,64 @@ const Investment = () => {
             />
           </Gallery>
         </ContentWrapper>
+        <Wrapper>
+          <SubTitle>Otoczenie i Infrastruktura</SubTitle>
+          <Wrapper>
+            <Paragraph>
+              Żukczyn to miejscowość oferująca pełną infrastrukturę niezbędną do
+              wygodnego życia. W pobliżu znajdują się szkoły, przedszkola,
+              sklepy oraz placówki medyczne. Bliskość terenów rekreacyjnych i
+              ścieżek rowerowych sprzyja aktywnemu spędzaniu czasu na świeżym
+              powietrzu.
+            </Paragraph>
+          </Wrapper>
+          <Wrapper>
+            <SubTitle>Lokalizacja</SubTitle>
+            <Wrapper>
+              <Paragraph>
+                Nasze osiedle usytuowane jest w spokojnej okolicy Żukczyna,
+                zaledwie kilkanaście minut jazdy od centrum Gdańska. Bliskość
+                obwodnicy oraz stacji PKM zapewnia doskonałą komunikację z całym
+                Trójmiastem. Otoczenie zieleni i sąsiedztwo potoku tworzą
+                unikalny klimat sprzyjający relaksowi i aktywnemu wypoczynkowi
+                na świeżym powietrzu.
+              </Paragraph>
+              <Video videoSrc={srcVideo} />
+            </Wrapper>
+          </Wrapper>
+          <Wrapper>
+            <SubTitle>Architektura i Standard Wykończenia</SubTitle>
+            <Wrapper>
+              <Paragraph>
+                Inwestycja obejmuje nowoczesne domy jednorodzinne o przemyślanym
+                układzie przestrzennym. Każdy dom posiada przestronny salon z
+                aneksem kuchennym, kilka sypialni, łazienki oraz garaż. Duże
+                przeszklenia zapewniają doskonałe doświetlenie wnętrz i
+                pozwalają cieszyć się widokiem na otaczającą przyrodę.
+              </Paragraph>
+              <Paragraph>
+                W trosce o komfort mieszkańców, domy wyposażone są w nowoczesne
+                technologie, takie jak pompy ciepła i ogrzewanie podłogowe, co
+                gwarantuje energooszczędność i niskie koszty eksploatacji.
+                Dodatkowo, każdy dom posiada własny ogród, stanowiący idealne
+                miejsce do wypoczynku i spotkań z bliskimi.
+              </Paragraph>
+            </Wrapper>
+          </Wrapper>
+          <IconsWrapper>
+            <IconWithText icon="IKO" text="funkcjonalny układ pomieszczeń" />
+            <IconWithText icon="IKO" text="spokojna okolica" />
+            <IconWithText icon="IKO" text="prywatny garaż" />
+            <IconWithText icon="IKO" text="prywatny ogród" />
+            <IconWithText icon="IKO" text="inwetycja premium" />
+          </IconsWrapper>
+          <h2>
+            TODO: powyżej poprawić układ, zrezygnować z kwadratów, tylko ikony,
+            chyba będzie lepiej
+          </h2>
+          <h2>TODO: może poniżej przed tabelą dodać jakiś tekst?</h2>
+        </Wrapper>
+        <h2>TODO: MAPA</h2>
         <RealEstateTable />
       </TextWithChildrenComponent>
     </ContainerWidth>
