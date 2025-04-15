@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/vela/static/css/main.7ca38447.css",
-    "main.js": "/vela/static/js/main.dbd354e9.js",
+    "main.js": "/vela/static/js/main.e174b60e.js",
     "static/media/DronInwestycja.mp4": "/vela/static/media/DronInwestycja.0525ccd5ed830bb17085.mp4",
     "static/media/2_hr.jpg": "/vela/static/media/2_hr.571459b4878c063b996a.jpg",
     "static/media/3_hr.jpg": "/vela/static/media/3_hr.fcff9df1eb0522ebb677.jpg",
@@ -13,10 +13,10 @@
     "static/media/VelaLogoWhite.svg": "/vela/static/media/VelaLogoWhite.02ad3a95da76a963c151dd93fa95e282.svg",
     "index.html": "/vela/index.html",
     "main.7ca38447.css.map": "/vela/static/css/main.7ca38447.css.map",
-    "main.dbd354e9.js.map": "/vela/static/js/main.dbd354e9.js.map"
+    "main.e174b60e.js.map": "/vela/static/js/main.e174b60e.js.map"
   },
   "entrypoints": [
     "static/css/main.7ca38447.css",
-    "static/js/main.dbd354e9.js"
+    "static/js/main.e174b60e.js"
   ]
 }
