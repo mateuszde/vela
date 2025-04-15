@@ -12,6 +12,7 @@ const Home = ({ dataCards }) => {
       <Investment />
       <CallToAction />
       <AboutUs />
+      <h2> SEKCJA KONTAKT</h2>
     </main>
   );
 };
