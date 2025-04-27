@@ -1,4 +1,11 @@
 import styled from "styled-components";
+export const MapWrapper = styled.div`
+  width: 100%;
+  height: 500px;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+`;
 
 export const ContentWrapper = styled.div`
   display: flex;

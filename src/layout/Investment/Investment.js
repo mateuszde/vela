@@ -8,6 +8,7 @@ import Paragraph from "../../components/Paragraph/Paragraph";
 import TextBolder from "../../components/TextBolder/TextBolder";
 import srcVideo from "../../assets/Video/DronInwestycja.mp4";
 import Video from "../../components/Video/Video";
+import Map from "../../components/Map/MyMap";
 
 import {
   ContentWrapper,
@@ -17,6 +18,7 @@ import {
   ListItem,
   List,
   IconsWrapper,
+  MapWrapper,
 } from "./style";
 
 import image1 from "../../assets/Images/1_hr.jpg";
@@ -75,14 +77,15 @@ const Investment = () => {
               <List>
                 <ListItem>
                   <Paragraph>
-                    Dom dwulokalowy – każda część o powierzchni{" "}
-                    <TextBolder>120 m²</TextBolder> z przestronnym garażem i
-                    funkcjonalnym układem pomieszczeń.
+                    <TextBolder>Dom dwulokalowy B1 oraz B2</TextBolder> – o
+                    powierzchniach <TextBolder>120 m²</TextBolder> każdy, z
+                    przestronnymi garażami i funkcjonalnymi układami
+                    pomieszczeń.
                   </Paragraph>
                 </ListItem>
                 <ListItem>
                   <Paragraph>
-                    Dom wolnostojący – o powierzchni{" "}
+                    <TextBolder>Dom wolnostojący A1 </TextBolder>– o powierzchni{" "}
                     <TextBolder>183 m²</TextBolder>, oferujący maksymalną
                     przestrzeń i prywatność.
                   </Paragraph>
@@ -191,15 +194,17 @@ const Investment = () => {
             <IconWithText icon="IKO" text="spokojna okolica" />
             <IconWithText icon="IKO" text="prywatny garaż" />
             <IconWithText icon="IKO" text="prywatny ogród" />
-            <IconWithText icon="IKO" text="inwetycja premium" />
+            <IconWithText icon="IKO" text="inwestycja premium" />
           </IconsWrapper>
           <h2>
             TODO: powyżej poprawić układ, zrezygnować z kwadratów, tylko ikony,
             chyba będzie lepiej
           </h2>
-          <h2>TODO: może poniżej przed tabelą dodać jakiś tekst?</h2>
         </Wrapper>
-        <h2>TODO: MAPA</h2>
+
+        <MapWrapper>
+          <Map />
+        </MapWrapper>
         <RealEstateTable />
       </TextWithChildrenComponent>
     </ContainerWidth>

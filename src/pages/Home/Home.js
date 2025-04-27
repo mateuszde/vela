@@ -3,6 +3,7 @@ import Cards from "../../components/Cards/Cards";
 import Investment from "../../layout/Investment/Investment";
 import AboutUs from "../../layout/AboutUs/AboutUs";
 import CallToAction from "../../layout/CallToAction/CallToAction";
+import Contact from "../../layout/Contact/Contact";
 
 const Home = ({ dataCards }) => {
   return (
@@ -12,7 +13,7 @@ const Home = ({ dataCards }) => {
       <Investment />
       <CallToAction />
       <AboutUs />
-      <h2> SEKCJA KONTAKT</h2>
+      <Contact />
     </main>
   );
 };

@@ -8,6 +8,7 @@ import styled from "styled-components";
 const Wrapper = styled.div`
   display: flex;
   align-items: center;
+  margin-top: -20px;
   & div:first-child {
     width: 50%;
   }
@@ -49,10 +50,6 @@ const AboutUs = () => {
               nie tylko inwestycja, ale także zobowiązanie do dostarczania
               rozwiązań, które zachwycają funkcjonalnością i estetyką.
             </Paragraph>
-            <h2>
-              MOŻE JAKIS TEKST NAWIĄZUJĄCY DO ZREALIZOWANEJ WCZEŚNIEJ
-              INWESTYCJI? DO TEGO PORZYCISK PRZEKIEROWYWUJĄCY?
-            </h2>
           </div>
           <LogoWrapper>
             <img src={logo} alt="Logo VelaGroup" />
